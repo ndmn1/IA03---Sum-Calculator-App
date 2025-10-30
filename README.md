@@ -66,4 +66,4 @@ npm run dev
 - The Sum Calculator component uses an SCSS module (`SumCalculator.module.scss`) so styles are scoped to the component. Vite compiles SCSS automatically after installing `sass`.
 
 ## Deployment
-- The app is deployed at [https://sum-calculator-app.vercel.app](https://sum-calculator-app.vercel.app).
+- The app is deployed at [IA03-SumCalculatorApp](https://ia-03-sum-calculator-app.vercel.app/).
