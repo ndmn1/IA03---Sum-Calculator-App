@@ -31,8 +31,10 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-size: 3.2rem;
+  line-height: 1.3em;
+  letter-spacing: -2px;
+  margin: 0 0 1rem;
 }
 
 button {
@@ -64,5 +66,24 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+  body {
+    /* allow content to flow from top on small screens */
+    display: block;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+    margin: 0.25rem 0 0.5rem;
+  }
+
+  button {
+    /* slightly larger touch targets on mobile */
+    padding: 0.8em 1.2em;
+    font-size: 1rem;
   }
 }
