@@ -1,0 +1,61 @@
+/* Sum Calculator styles (SCSS module) */
+
+.sumCalculator {
+  border: 1px solid #e5e7eb;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background: #fff;
+
+  h2 {
+    margin-top: 0;
+  }
+
+  .field {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 0.75rem;
+
+    label {
+      width: 90px;
+    }
+
+    input {
+      flex: 1 1 auto;
+      padding: 0.5rem;
+      border: 1px solid #d1d5db;
+      border-radius: 4px;
+    }
+  }
+
+  .actions {
+    margin-top: 0.5rem;
+
+    button {
+      padding: 0.5rem 1rem;
+      background: #6366f1;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #4f46e5;
+    }
+  }
+
+  .output {
+    margin-top: 1rem;
+  }
+
+  .error {
+    color: #b91c1c;
+    font-weight: 600;
+  }
+
+  .result {
+    color: #065f46;
+    font-weight: 700;
+  }
+}
